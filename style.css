@@ -1,0 +1,71 @@
+.clock {
+    background-color: brown;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    font-size: 50px;
+}
+.center {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+.twelve {
+    position:fixed;
+    margin-top: 10px;
+    margin-left: 225px;
+}
+.three {
+    position:fixed;
+    margin-left: 450px;
+    line-height: 500px;
+}
+.six {
+    position:fixed;
+    margin-top: 435px;
+    margin-left: 237px;
+}
+.nine {
+    position:fixed;
+    line-height: 500px;
+    margin-left: 30px;
+}
+.hour {
+    position:fixed;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+}
+.hourHand {
+    background-color: black;
+    width: 30px;
+    height: 150px;
+    margin-left: 235px;
+    margin-top: 130px;
+}
+.minute {
+    position: fixed;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+}
+.minuteHand {
+    width: 20px;
+    height: 200px;
+    background-color: grey;
+    margin-left: 240px;
+    margin-top: 80px;
+}
+.second {
+    position: fixed;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+}
+.secondHand {
+    width: 10px;
+    height: 220px;
+    background-color: yellow;
+    margin-left: 245px;
+    margin-top: 60px;
+}
